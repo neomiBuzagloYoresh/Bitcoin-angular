@@ -22,7 +22,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { TranferFundComponent } from './cmps/tranfer-fund/tranfer-fund.component';
 import { MoveListComponent } from './cmps/move-list/move-list.component';
 import { MovePreviewComponent } from './cmps/move-preview/move-preview.component';
-import { LottieModule } from 'ngx-lottie'; // add this line
+import { LottieModule } from 'ngx-lottie';
+import { NgChartsModule } from 'ng2-charts'; // add this line
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { LottieModule } from 'ngx-lottie'; // add this line
     BrowserAnimationsModule,
 
     LottieModule.forRoot({ player: playerFactory }),
+     NgChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
