@@ -1,0 +1,13 @@
+<section class="contact-details">
+  <div class="details-container">
+    <img [src]="contact.img" alt="" />
+    <h1>{{ contact.name }}</h1>
+    <p>Phone: {{ contact.phone }}</p>
+    <p>Email: {{ contact.email }}</p>
+    <tranfer-fund [contact]="contact"></tranfer-fund>
+  </div>
+
+  <move-list [moves]="contactMoves"></move-list>
+  <button class="form-btn" (click)="onBack()">Back to contact</button>
+</section>
+<!-- [contact]="contact" -->

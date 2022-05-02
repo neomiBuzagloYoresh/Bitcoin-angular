@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("./assets/icons for misterBitcoin/home-page.jpg");
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  background-position: 55%;
+  margin: 0;
+  max-height: 100vw;
+  max-width: 100vw;
+  font-family: Raleway-Italic;
+  // background-color: #10101076;
+}
+
+.container {
+  padding-inline: 8vw;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.active {
+    color: #ecdfdf;
+  }
+}
+
+// main {
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+//   gap: 20px;
+// }
+
+@font-face {
+  font-family: "Cereal-Bold";
+  src: url("./assets/fonts/Raleway-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url("./assets/fonts/Raleway-Italic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("./assets/fonts/Raleway-ExtraLightItalic.ttf");
+}

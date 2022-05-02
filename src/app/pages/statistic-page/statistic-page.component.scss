@@ -1,0 +1,11 @@
+.statistic-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+
+  .pie-chart-container {
+    padding-bottom: 50px;
+    color: white;
+  }
+}

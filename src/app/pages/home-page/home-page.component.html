@@ -1,0 +1,25 @@
+<section class="home-page main-layout">
+  <div class="login-user-details">
+    <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="" />
+    <div class="container-coins">
+      <p><span>Hello: </span> {{ user.name }}</p>
+      <p><span>Coins:</span> {{ user.coins }}</p>
+      <div class="btc-container">
+        <p>
+          <span> btc: </span> ${{ btc }}
+          <img
+            class="bitcoin-home"
+            src="https://html.dreamitsolution.net/cryptozen/assets/images/new/2.png"
+            alt=""
+          />
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <move-list [moves]="userMoves"></move-list>
+  </div>
+</section>
+
+<!-- <ng-lottie height="auto" [options]="options"></ng-lottie> -->
